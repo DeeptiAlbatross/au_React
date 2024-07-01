@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from "../assests/logo.png"
 
 const header = () => {
   return (
@@ -7,7 +8,7 @@ const header = () => {
         <nav class="flex items-center justify-between h-16 lg:h-20">
             <div class="flex-shrink-0">
                 <a href="#" title="" class="flex">
-                    <img class="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
+                    <img class="w-auto h-8 lg:h-10" src={Logo} alt="" />
                 </a>
             </div>
 
