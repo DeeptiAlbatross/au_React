@@ -4,7 +4,7 @@ import Image from "../assests/home.png"
 const Hero = () => {
   return (
     <div id="Home" className=" flex justify-center relative ">
-      <div className="absolute "></div>
+      {/* <div className="absolute "></div> */}
       <img
         className=" w-full  bg-center bg-cover h-screen "
         src={Image}
@@ -16,7 +16,7 @@ const Hero = () => {
           <span className="text-yellow-400  text-xl font-bold ">
             AU Corporate <br></br>
           </span>
-        </div>
+        </div>  
         <div className="flex justify-start">
           <p className="text-2xl" >
             <span className="text-white text-6xl font-bold">Smart</span>{" "}
