@@ -20,7 +20,7 @@ function App() {
       <Contact />
       <Services />
       <Team />
-      {/* <Statics /> */}
+      <Statics />
     </div>
   );
 }
