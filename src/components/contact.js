@@ -3,7 +3,7 @@ import ContactImage from "../assests/contact.png";
 
 const Contact = () => {
   return (
-    <div className="relative flex justify-center pb-20">
+    <div className="relative flex justify-center ">
       <div className="">
         <img src={ContactImage} alt=""></img>
       </div>
