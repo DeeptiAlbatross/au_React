@@ -7,7 +7,7 @@ const about = () => {
   return (
     <div className="flex justify-center pt-20 pb-20">
       <div>
-        <img className="w-[600px] rounded-lg" src={AboutImage}></img>
+        <img className="w-[600px] rounded-lg " src={AboutImage}></img>
       </div>
       <div className="pt-24 pl-10 w-[600px] ">
         <div>
@@ -38,27 +38,27 @@ const about = () => {
             <div className=" pt-6 pl-6 flex flex-row gap-10 ">
                <div className="">
                <div className=" flex flex-row gap-4 ">
-                <img src={Tick}></img>
-                <h className="flex justify-start font-bold">Trusted Financial Expertise</h>
+                <img  className="w-4" src={Tick}></img>
+                <h className="flex justify-start text-sm font-bold">Trusted Financial Expertise</h>
                 </div>
                 <div  className="flex flex-row gap-4 pt-2">
-                <img src={Tick}></img>
-                <h className="flex justify-start font-bold">Dediacted Client partnerships.</h>
+                <img className="w-4" src={Tick}></img>
+                <h className="flex justify-start text-sm font-bold">Dediacted Client partnerships.</h>
                 </div>
                 <div  className=" flex flex-row gap-4 pt-2">
-                <img src={Tick}></img>
-                <h className="flex justify-start font-bold">Reliable tax advisor.</h>
+                <img className="w-4" src={Tick}></img>
+                <h className="flex justify-start text-sm font-bold">Reliable tax advisor.</h>
                 </div>
                </div>
                
               <div className="pt-0">
               <div  className="flex flex-row gap-4 pt-2">
-                <img src={Tick}></img>
-                <h className="flex justify-start font-bold">Proven audit excellence. </h>
+                <img className="w-4" src={Tick}></img>
+                <h className="flex justify-start text-sm font-bold">Proven audit excellence. </h>
                 </div>
                 <div  className=" flex flex-row gap-4 pt-2">
-                <img src={Tick}></img>
-                <h className="flex justify-start font-bold">Strategic finacial planning  </h>
+                <img className="w-4" src={Tick}></img>
+                <h className="flex justify-start text-sm font-bold">Strategic finacial planning  </h>
                 </div>
               </div>
             </div>
