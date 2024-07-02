@@ -8,7 +8,7 @@ import Heading from "./components/headingContact";
 import Services from "./components/services";
 import Boxes from "./components/boxesHero";
 import Team from "./components/team";
-
+import Strengths from "./components/strengths";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
       <Services />
       <Team />
       <Statics />
+      <Strengths/>
     </div>
   );
 }

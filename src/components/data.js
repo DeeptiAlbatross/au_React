@@ -125,4 +125,37 @@ export const teamData=[
         para: " Founder & CEO .",
         image:Team1,
     },
-]  ;
+];
+export const strengthData = [
+    {
+      id: 1,
+      title: "Industrious",
+      para: "Design your online store yourself with our drag-and-drop builder .",
+      image:FinacialImage,
+        },
+    {
+      id: 2,
+      title: "Integrity",
+      para: " order management, shipping integration, product catalogues, payment gateways..",
+     image:PerfectImage,
+    },
+    {
+      id: 3,
+      title: "Confidentiality",
+      para: "Engage with customers within the same dashboard to convert website .",
+     image:BudgetImage
+    },
+    {
+        id: 4,
+        title: "Availability",
+        para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
+       image:TechImage
+      },
+      {
+        id: 5,
+        title: "Internations Exposure",
+        para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
+       image:TechImage
+      },
+  ];
+
