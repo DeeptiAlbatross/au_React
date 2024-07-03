@@ -27,21 +27,22 @@ const strengths = () => {
           {strengthData?.map((i, index) => (
             <div
               key={index}
-              className="m-4 p-4 bg-white rounded-lg border border-gray-400 w-72 h-64 shadow-md"
+              className="m-4 p-4 bg-white rounded-lg border border-gray-400 w-60 h-64 shadow-md"
             >
-              <div className="flex flex-row gap-4">
+              <div className="flex flex-row gap-4 ">
                 <img
                   className="w-14 h-14 pt-3 pl-2"
                   src={i.image}
                   alt="#"
                 ></img>
                
-                <h className="text-lg font-bold text-black pt-4">{i.title}</h>
+                <h className="text-lg font-bold pb-4 text-black pt-4">{i.title}</h>
               </div>
               <div class="flex-grow flex border-t-2 w-[200px]  border-blue-600 "></div>
 
-              <p className="text-sm text-black pt-4"> {i.para}</p>
+              <p className="text-sm text-gray-500 pt-6"> {i.para}</p>
             </div>
+          
           ))}
         </div>
      

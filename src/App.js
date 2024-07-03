@@ -9,6 +9,10 @@ import Services from "./components/services";
 import Boxes from "./components/boxesHero";
 import Team from "./components/team";
 import Strengths from "./components/strengths";
+import Clients from "./components/client";
+import Testimonials from "./components/testimonials";
+import JoinAU from "./components/joinAU";
+
 function App() {
   return (
     <div className="App">
@@ -22,8 +26,11 @@ function App() {
       <Team />
       <Statics />
       <Strengths/>
+      <Clients/>
+      <Testimonials/>
+      <JoinAU/>
+      
     </div>
   );
 }
-
 export default App;
