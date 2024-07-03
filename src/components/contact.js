@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="">
         <img src={ContactImage} alt=""></img>
       </div>
-      <div className="absolute mt-28 w-2/3 flex justify-center bg-gradient-to-r from-black to-yellow-500 opacity-65 h-1/2 grid grid-cols-2">
+      <div className="absolute mt-28 w-2/3 flex flex-row justify-center bg-gradient-to-r from-black to-yellow-500 opacity-65 h-1/2 grid grid-cols-2">
         <div className="flex flex-col">
           <h className="text-white font-bold text-4xl pt-20">
             Get a free quote Calculation
@@ -17,8 +17,9 @@ const Contact = () => {
             Suspenisse imperdiet lectus curcus nis fcbmkas hbjjwegh bn vbbhgbn
             manga nec .
           </h>
+          </div>
           <div>
-            <form className="grid grid-cols-2 gap-2">
+            <form className="grid grid-cols-2 gap-2 pt-10 p-4">
              
               <input
                 className="bg-transparent border border-white pb-2 rounded w-full py-2 px-3 text-white leading-tight "
@@ -74,10 +75,9 @@ const Contact = () => {
             <div>
                 <button className="bg-white w-full text-blue-700">Get a free Quote</button>
             </div>
-            </form>
+            </form> 
           </div>
         </div>
-      </div>
     </div>
   );
 };
