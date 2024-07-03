@@ -13,6 +13,7 @@ import Clients from "./components/client";
 import Testimonials from "./components/testimonials";
 import JoinAU from "./components/joinAU";
 import Contactfooter from "./components/contactfooter";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Testimonials/>
       <JoinAU/>
      <Contactfooter/> 
+     <Footer/>
       
     </div>
   );
