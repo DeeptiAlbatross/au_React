@@ -4,7 +4,7 @@ import Join1 from "../assests/join.png"
 
 const joinAU = () => {
   return (
-      <div className="relative flex justify-center">
+      <div className="relative flex justify-center pt-20 bg-gray-200 ">
       <img
         className="bg-center bg-cover h-[500px] w-full"
         src={Join}
@@ -21,10 +21,9 @@ const joinAU = () => {
         </p>
         <button className="bg-yellow-400 rounded  text-blue-800 font-bold h-12 w-40">Join us</button>
         </div>
-       
       </div>
-      <div className="absolute pl-[800px] ">
-        <img className="h-[600px] pb-24" src={Join1} alt="#"></img>
+      <div className="absolute bottom-0 pt-0 right-64 ">
+        <img className="h-[600px] " src={Join1} alt="#"></img>
       </div>
     </div>
   );

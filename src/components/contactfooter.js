@@ -13,8 +13,9 @@ const Contactfooter = () => {
             Suspenisse imperdiet lectus curcus nis fcbmkas manga nec .
           </h>
         </div>
-        <div className="w-[1000px]">
-          <form className="grid grid-cols-2 gap-4 pt-20 p-4">
+       
+        <div className="">
+          <form className="grid grid-cols-2 gap-4 pt-20 p-4 ">
             <input
               className="bg-transparent border border-black pb-2 rounded w-full py-2 px-3 text-black leading-tight "
               id="name"
@@ -43,7 +44,10 @@ const Contactfooter = () => {
               placeholder="Number of Employee"
               name="name"
             />
-            <div className="grid grid-cols-3">
+            
+           
+          </form>
+          <div className="grid grid-cols-3 w-full  gap-2 px-4">
               <input
                 className="bg-transparent border border-black pb-2 rounded w-full py-2 px-3 text-black leading-tight "
                 id="name"
@@ -66,13 +70,11 @@ const Contactfooter = () => {
                 name="name"
               />
             </div>
-            <br></br>
-            <div className="w-[690px] h-6">
+            <div className="w-[700px] h-6 px-3 mt-4">
               <button className="bg-black w-full py-2 text-white">
                 Get a free Quote
               </button>
             </div>
-          </form>
         </div>
       </div>
     </div>

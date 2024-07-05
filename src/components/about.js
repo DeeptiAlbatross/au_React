@@ -14,11 +14,8 @@ const about = () => {
           <h className="text-blue-800 text-2xl font-bold flex justify-start pb-6">
             About our company
           </h>
-          <div>
+          <div className="border-b-2 border-b-blue-600">
             <span className="text-black text-4xl font-bold flex justify-start">Reliable  *Solutions</span>
-            {/* <span className="text-blue-600  text-4xl font-bold  ">
-              *Solutions <br></br>
-            </span> */}
             <span className="text-black text-4xl font-bold flex justify-start leading-tight">
               For your Financial <br></br>
             </span>
@@ -34,7 +31,7 @@ const about = () => {
                 challenges.
               </p>
             </div>
-
+            </div>
             <div className=" pt-6 pl-6 flex flex-row gap-10 ">
                <div className="">
                <div className=" flex flex-row gap-4 ">
@@ -70,7 +67,7 @@ const about = () => {
                 </div>
                 
             </div>
-          </div>
+          
         </div>
       </div>
     </div>

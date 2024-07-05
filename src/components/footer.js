@@ -6,8 +6,17 @@ import Location from "../assests/Location.png"
 import Image from "../assests/socialMedia.png";
 import Image2 from "../assests/logo-text.png";
 import Logo2 from "../assests/Logo2.png";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
+  const scrollToTarget = (item) => {
+    const id=document.getElementById(item);
+    if(id){
+     id.scrollIntoView({behavior:"smooth",block:"start"})
+    }
+ }
   return (
     <div className=" relative flex flex-col pb-6 ">
       <div className="flex flex-row ">
@@ -31,13 +40,13 @@ const Footer = () => {
           </p>
         </div>
         <div className="text-white flex flex-col  w-1/5 pl-20 leading-loose ">
-          <h className="pb-10 flex justify-start text-lg">Extra Links</h>
-          <h className="flex justify-start">Home</h>
-          <h className="flex justify-start">About us</h>
-          <h className="flex justify-start">Doing business in India</h>
-          <h className="flex justify-start">Services</h>
-          <h className="flex justify-start">Arbitration Services</h>
-          <h className="flex justify-start">HR Services</h>
+          <a href="#" class="pb-10 flex justify-start text-lg">Extra Links</a>
+          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("home")}>Home</a>
+          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("about")}>About us</a>
+          <a href="#" class="flex justify-start">Doing business in India</a>
+          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Services</a>
+          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Arbitration Services</a>
+          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("services")}>HR Services</a>
         </div>
         <div className="text-white flex flex-col  w-1/4 leading-loose gap-4">
           <h className="pb-10 flex justify-start text-lg">
@@ -59,18 +68,24 @@ const Footer = () => {
         </div>
         <div className="">
           <h className="text-lg text-white ">Follow Us on </h>
-          {/* <div className="flex flex-row gap-4 pt-6">
-          <FaInstagram />
-          <CiLinkedin />
-          <CiTwitter />
-          </div> */}
-          <img className=" pt-10" src={Image}></img>
+          <div className="flex flex-row gap-10  pt-10">
+           <div className="bg-yellow-300 h-8 w-8 flex justify-center pt-2 rounded-lg">
+           <AiFillInstagram />
+           </div>
+           <div className="bg-yellow-300 h-8 w-8 flex justify-center pt-2 rounded-lg">
+           < FaFacebookF/>
+           </div>
+           <div className="bg-yellow-300 h-8 w-8 flex justify-center pt-2 rounded-lg">
+           <FaTwitter />
+           </div>
+          </div>
+        
         </div>{" "}
       </div>
       <div className=" absolute flex-grow border-b-2 flex justify-center border-white w-[1500px] pt-[350px] ml-[180px]  "></div>
       <div className="absolute mt-[360px] mx-52">
         <div className="flex flex-row space-x-[1000px] pt-2">
-          <h className="text-white">Careers at AU</h>
+          <h className="text-white">Career at AU</h>
           <p className="text-white">
             Copyright @ AU Corporate.All Rights Reserved 2024
           </p>

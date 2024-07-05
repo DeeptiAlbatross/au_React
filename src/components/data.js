@@ -59,6 +59,7 @@ export const servicesData = [
     title: "Income Tax Litigation",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Income,
+    style:"bg-white"
   },
   {
     id: 3,
@@ -72,12 +73,14 @@ export const servicesData = [
     title: "HR",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: HR,
+    style:"bg-white"
   },
   {
     id: 5,
     title: "Corporate Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Corporate,
+    style:"bg-white"
    
   },
   {
@@ -92,6 +95,7 @@ export const servicesData = [
     title: "Goods and Service Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Goods,
+    style:"bg-white"
     
   },
   {
