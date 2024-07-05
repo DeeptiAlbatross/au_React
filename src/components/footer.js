@@ -48,7 +48,6 @@ const Footer = () => {
           <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Services</span>
           <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Arbitration Services</span>
           <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>HR Services</span>
-          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Contact</span>
 
         </div>
         <div className="text-white flex flex-col  w-1/4 leading-loose gap-4">
