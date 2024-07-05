@@ -18,6 +18,7 @@ import Confidentiality from "../assests/confidentiality.png"
 import International from "../assests/International.png"
 import Availibility from "../assests/Availability.png"
 import  testimonialImage from "../assests/ABouticon.png";
+import WhiteArrow from "../assests/whitearrow copy.png";
 
 
 export const cardData = [
@@ -52,35 +53,40 @@ export const servicesData = [
     title: "Doing Business in India",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Rupee,
-    style:"bg-blue-700"
+    style:"bg-blue-700",
+    image2:WhiteArrow
   },
   {
     id: 2,
     title: "Income Tax Litigation",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Income,
-    style:"bg-white"
+    style:"bg-white",
+    image2:ArrowImage
   },
   {
     id: 3,
     title: "Arbitration supoort",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Arbitration,
-    style:"bg-blue-700"
+    style:"bg-blue-700",
+    image2:WhiteArrow
   },
   {
     id: 4,
     title: "HR",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: HR,
-    style:"bg-white"
+    style:"bg-white",
+    image2:ArrowImage
   },
   {
     id: 5,
     title: "Corporate Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Corporate,
-    style:"bg-white"
+    style:"bg-white",
+    image2:ArrowImage
    
   },
   {
@@ -88,14 +94,16 @@ export const servicesData = [
     title: "Direct and Indirect Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Tax,
-    style:"bg-blue-700"
+    style:"bg-blue-700",
+    image2:WhiteArrow
   },
   {
     id: 7,
     title: "Goods and Service Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Goods,
-    style:"bg-white"
+    style:"bg-white",
+    image2:ArrowImage
     
   },
   {
@@ -103,7 +111,8 @@ export const servicesData = [
     title: "GST Consultancy",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: GST,
-    style:"bg-blue-700"
+    style:"bg-blue-700",
+    image2:WhiteArrow
   },
 ];
 export const teamData = [

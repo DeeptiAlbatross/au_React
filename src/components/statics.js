@@ -7,7 +7,7 @@ const statics = () => {
         <h className="text-blue-800 font-bold text-xl flex justify-start ">Our Statics</h>
         <div className="pt-6">
           <span className="text-blue-800 text-4xl font-bold">*Numbers</span>
-          <span>...</span>
+          
           <span className="text-4xl font-bold">Proves Our Success</span>
         </div>
       </div>

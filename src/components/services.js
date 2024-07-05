@@ -29,14 +29,14 @@ const services = () => {
     <div className="bg-gray-200 flex justify-center">
     <div className=" w-[1200px] flex-row  text-left center grid grid-cols-4">
         {servicesData?.map((i, index) => (
-          <div key={index} className={`m-4 p-8  rounded-lg border ${[1,3,6,8].includes(index+1)? "bg-blue-600":"bg-white"} border-gray-400  h-72 shadow-md`}  >
+          <div key={index} className={`m-4 p-8  rounded-lg border ${[1,3,6,8].includes(index+1)? "bg-blue-700":"bg-white"} border-gray-400  h-72 shadow-md`}  >
             <div>
             <img className='w-12 h-12 ' src={i.image} alt="#"></img>
             </div>
             
             <h className={`text-lg font-bold  flex justify-start pt-4 ${[1,3,6,8].includes(index+1)? "text-gray-200":"text-black" }`}>{i.title}</h>
             <p className={`text-sm  pt-4 flex justify-start ${[1,3,6,8].includes(index+1)? "text-white":"text-gray-400" }`}> {i.para}</p>
-            <img className="pt-4" src={Arrow} alt="#"></img>
+            <img className="pt-4" src={i.image2} alt="#"></img>
           </div>
         ))}
       </div>

@@ -3,12 +3,13 @@ import FooterImage from "../assests/footerImage.png";
 // import Logo from "../assests/logo.png";
 import PhoneImage from "../assests/phone.png";
 import Location from "../assests/Location.png"
-import Image from "../assests/socialMedia.png";
+// import Image from "../assests/socialMedia.png";
 import Image2 from "../assests/logo-text.png";
 import Logo2 from "../assests/Logo2.png";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import Letter from "../assests/letter.png";
 
 const Footer = () => {
   const scrollToTarget = (item) => {
@@ -40,13 +41,15 @@ const Footer = () => {
           </p>
         </div>
         <div className="text-white flex flex-col  w-1/5 pl-20 leading-loose ">
-          <a href="#" class="pb-10 flex justify-start text-lg">Extra Links</a>
-          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("home")}>Home</a>
-          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("about")}>About us</a>
-          <a href="#" class="flex justify-start">Doing business in India</a>
-          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Services</a>
-          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Arbitration Services</a>
-          <a href="#" class="flex justify-start" onClick={()=>scrollToTarget("services")}>HR Services</a>
+          <span href="#" title="" class="pb-10 flex justify-start text-lg">Extra Links</span>
+          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("home")}>Home</span>
+          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("about")}>About us</span>
+          <span href="#" title="" class="flex justify-start">Doing business in India</span>
+          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Services</span>
+          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Arbitration Services</span>
+          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>HR Services</span>
+          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Contact</span>
+
         </div>
         <div className="text-white flex flex-col  w-1/4 leading-loose gap-4">
           <h className="pb-10 flex justify-start text-lg">
@@ -57,7 +60,7 @@ const Footer = () => {
             <h className="text-white ">888-999-347 </h>
           </div>
           <div className="flex justify-start flex-row gap-2">
-            <img className="w-5" src={Location}></img>
+            <img className="w-5" src={Letter}></img>
           <h className="flex justify-start">au.corporate@gmail.com</h>
           </div>
           
