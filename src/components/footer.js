@@ -19,7 +19,7 @@ const Footer = () => {
     }
  }
   return (
-    <div className=" relative flex flex-col pb-6 ">
+    <div className=" relative flex flex-col pb-4">
       <div className="flex flex-row ">
         <img
           className=" bg-center bg-cover  "
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
 
           <p className="relative text-white text-left flex justify-start pt-8 align-items-left">
-            Welcome to AU coporate,where expertfinancial solutions and precision
+            Welcome to AU corporate,where expert financial solutions and precision
             meet.Trust to navigate your finances to your own growth.
           </p>
         </div>

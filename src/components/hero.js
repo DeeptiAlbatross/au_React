@@ -5,13 +5,12 @@ import Image from "../assests/home.png";
 
 const Hero = () => {
   return (
-    <div id="home" className=" flex justify-center  relative">
+    <div id="home" className=" flex justify-center  relative ">
       <img
-        className=" w-full  bg-center bg-cover h-screen "
+        className=" w-full bg-center bg-cover h-screen  "
         src={Image}
         alt="img "
       ></img>
-      
       <div className="absolute flex pt-60 -ml-60 p-10 flex-col ">
         <div className="flex justify-start pb-4">
           <span className="text-white text-xl font-bold ">Welcome to </span>{" "}
