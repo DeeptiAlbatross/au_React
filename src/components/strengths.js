@@ -22,7 +22,7 @@ const strengths = () => {
         </p>
       </div>
        
-        <div className="absolute flex justify-center pt-52 ">
+        <div className="absolute flex justify-center pt-52 text-left ">
         <div className="flex justify-center flex-row ">
           {strengthData?.map((i, index) => (
             <div

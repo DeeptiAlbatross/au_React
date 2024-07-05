@@ -5,7 +5,7 @@ import AboutIcon from "../assests/ABouticon.png"
 
 const about = () => {
   return (
-    <div className="flex justify-center pt-20 pb-20">
+    <div className="flex justify-center  pb-20 " id="about">
       <div>
         <img className="w-[600px] rounded-lg " src={AboutImage}></img>
       </div>
@@ -26,7 +26,7 @@ const about = () => {
               Needs
             </span>
             <div className="flex justify-start py-4">
-              <p className=" text-lg text-gray-400">
+              <p className=" text-lg text-gray-400 text-left">
                 AU is pioneering conglomerate,encompassing esteemed firms in the
                 realms of Accounting,Audit & Assurance,Consulting, and Legal
                 Services,skilfully amalgamating innovative ideas with

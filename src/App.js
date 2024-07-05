@@ -12,8 +12,9 @@ import Strengths from "./components/strengths";
 import Clients from "./components/client";
 import Testimonials from "./components/testimonials";
 import JoinAU from "./components/joinAU";
-import Contactfooter from "./components/contactfooter";
+import ContactForm from "./components/contactfooter";
 import Footer from "./components/footer";
+
 
 function App() {
   return (
@@ -27,13 +28,12 @@ function App() {
       <Services />
       <Team />
       <Statics />
-      <Strengths/>
-      <Clients/>
-      <Testimonials/>
-      <JoinAU/>
-     <Contactfooter/> 
-     <Footer/>
-      
+      <Strengths />
+      <Clients />
+      <Testimonials />
+      <JoinAU />
+      <ContactForm />
+      <Footer/>
     </div>
   );
 }

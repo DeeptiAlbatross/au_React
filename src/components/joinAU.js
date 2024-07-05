@@ -13,7 +13,7 @@ const joinAU = () => {
       <div className="absolute flex  flex-col w-[1200px] mt-40 -ml-96  ">
       <h1 className="flex justify-start text-4xl text-white font-bold pt-10 pb-10">Join AU Corporate</h1>
         <div className="flex justify-start flex-col w-[500px]  gap-8">
-        <p className="flex justify-start text-white leading-loose">
+        <p className="flex justify-start text-left text-white leading-loose">
          
           Caring for our people's well being.Providing flexibility in how we work.
           Inspiring everybody to shape better tomorrows.These are just a few of the reasons AU is greatplace to work.
@@ -24,7 +24,7 @@ const joinAU = () => {
        
       </div>
       <div className="absolute pl-[800px] ">
-        <img className="h-[600px] pb-24" src={Join1}></img>
+        <img className="h-[600px] pb-24" src={Join1} alt="#"></img>
       </div>
     </div>
   );

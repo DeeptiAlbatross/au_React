@@ -1,9 +1,19 @@
 import React from 'react'
 import Logo from "../assests/logo.png"
+import { useNavigate } from "react-router-dom";
 
-const header = () => {
+
+const Header = () => {
+    // const navigate=useNavigate();
+    const scrollToTarget = (item) => {
+   const id=document.getElementById(item);
+   if(id){
+    id.scrollIntoView({behavior:"smooth",block:"start"})
+   }
+}
   return (
-    <header class="pb-6 bg-white lg:pb-0">
+    <>
+    <header class="pb-6 bg-white lg:pb-0 sticky top-0 ">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <nav class="flex items-center justify-between h-16 lg:h-20">
             <div class="flex-shrink-0">
@@ -23,20 +33,21 @@ const header = () => {
             </button>
 
             <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-                <a href="#" title="" class="text-base font-regular text-blue-600 transition-all duration-200 hover:text-black focus:text-blue-600"> Home </a>
-                <a href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About us </a>
-                <a href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Doing business in India </a>
-                <a href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Services </a>
-                <a href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Arbitration Services </a>
-                <a href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">  HR Services </a>
+                <span href="#" title="" class="text-base font-regular text-blue-600 transition-all duration-200 hover:text-black focus:text-blue-600" onClick={()=>scrollToTarget("home")}> Home </span>
+                <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("about")}> About us </span>
+                <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("about")}> Doing business in India </span>
+                <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("services")}> Services </span>
+                <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("services")}> Arbitration Services </span>
+                <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("services")}>  HR Services </span>
             </div>
-            <a href="#" title="" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-black border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Contact us </a>
+            <a href="#" title="" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-black border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button" onClick={()=>scrollToTarget("contact")}> Contact us </a>
         </nav>
     </div>
 </header>
+</>
   )
 }
 
-export default header
+export default Header;
 
 

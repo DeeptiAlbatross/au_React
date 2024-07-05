@@ -52,6 +52,7 @@ export const servicesData = [
     title: "Doing Business in India",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Rupee,
+    style:"bg-blue-700"
   },
   {
     id: 2,
@@ -64,6 +65,7 @@ export const servicesData = [
     title: "Arbitration supoort",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Arbitration,
+    style:"bg-blue-700"
   },
   {
     id: 4,
@@ -76,24 +78,28 @@ export const servicesData = [
     title: "Corporate Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Corporate,
+   
   },
   {
     id: 6,
     title: "Direct and Indirect Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Tax,
+    style:"bg-blue-700"
   },
   {
     id: 7,
     title: "Goods and Service Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Goods,
+    
   },
   {
     id: 8,
     title: "GST Consultancy",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: GST,
+    style:"bg-blue-700"
   },
 ];
 export const teamData = [

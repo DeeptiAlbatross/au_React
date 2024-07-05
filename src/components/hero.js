@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "../assests/home.png";
-import FinacialImage from "../assests/Financial.png";
+// import FinacialImage from "../assests/Financial.png";
+// import { cardData } from "./data";
 
 const Hero = () => {
   return (
-    <div id="Home" className=" flex justify-center relative">
+    <div id="home" className=" flex justify-center  relative">
       <img
         className=" w-full  bg-center bg-cover h-screen "
         src={Image}
@@ -33,7 +34,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="">
-          <p className="text-xl pt-4 text-white flex justify-start">
+          <p className="text-xl pt-4 text-left text-white flex justify-start">
             Welcome to AU Corporate ,where expert financial solutions and
             precision meet.<br></br>
             Trust us to navigate with your finances with

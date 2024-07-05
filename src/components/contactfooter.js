@@ -1,9 +1,9 @@
 import React from "react";
 
-const contactfooter = () => {
+const Contactfooter = () => {
   return (
-    <div className=" flex justify-center ">
-      <div className="absolute mt-6 w-2/3 flex flex-row justify-center  h-auto pb-10">
+    <div id="contact" className=" flex justify-center pb-10">
+      <div className="mt-6 w-2/3 flex flex-row justify-center h-auto ">
         <div className="flex flex-col w-[800px] pt-4 gap-2">
           <h className="text-black font-bold text-4xl pt-20 flex justify-start">
             Get a free quote Calculation
@@ -67,7 +67,7 @@ const contactfooter = () => {
               />
             </div>
             <br></br>
-            <div className="w-[770px] h-6">
+            <div className="w-[690px] h-6">
               <button className="bg-black w-full py-2 text-white">
                 Get a free Quote
               </button>
@@ -79,4 +79,4 @@ const contactfooter = () => {
   );
 };
 
-export default contactfooter;
+export default Contactfooter;

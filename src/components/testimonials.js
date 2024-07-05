@@ -1,6 +1,6 @@
 import React from "react";
 import { testimonialsData } from "./data";
-import testimonialImage from "../assests/ABouticon.png";
+// import testimonialImage from "../assests/ABouticon.png";
 
 const testimonials = () => {
   return (
@@ -24,7 +24,7 @@ const testimonials = () => {
           </p>
         </div>
       </div>
-      <div className=" flex justify-center">
+      <div className=" flex justify-center text-left ">
         <div className="flex justify-center flex-row w-[1000px] -pt-32">
           {testimonialsData?.map((i, index) => (
             <div
@@ -32,7 +32,7 @@ const testimonials = () => {
               className="m-4 p-4 bg-white rounded-lg border  w-80 h-56 shadow-md"
             >
               <div className="flex flex-row"></div>
-              <p className="text-sm text-black pt-4"> {i.para}</p>
+              <p className="text-sm text-black pt-4 pl-7"> {i.para}</p>
               <div className="flex flex-row justify-center gap-6 pt-10">
                 <img
                   className="w-16 h-16 pt-3 pl-2"
