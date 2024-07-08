@@ -8,7 +8,7 @@ import Tax from "../assests/Tax.png";
 import HR from "../assests/HR.png";
 import Income from "../assests/iNCOME.png";
 import Goods from "../assests/Goods and servicetax.png";
-import Corporate from "../assests/CORPORATE.png";
+import Corporate from "../assests/Corporate.png";
 import GST from "../assests/GST.png";
 import Arbitration from "../assests/arbitration.png";
 import Team1 from "../assests/Team1.png";

@@ -1,13 +1,11 @@
 import React from "react";
 import Image from "../assests/home.png";
-// import FinacialImage from "../assests/Financial.png";
-// import { cardData } from "./data";
 
 const Hero = () => {
   return (
     <div id="home" className=" flex justify-center  relative ">
       <img
-        className=" w-full bg-center bg-cover h-screen  "
+        className=" bg-center bg-cover h-screen  "
         src={Image}
         alt="img "
       ></img>
@@ -40,8 +38,6 @@ const Hero = () => {
             accuracy,reliabiltiy,and a commitment to <br></br> your growth.
           </p>
         </div>
-
-        <br />
         <button className=" py-2 w-28 text-white border border-white font-bold ">
           Contact Us{" "}
         </button>

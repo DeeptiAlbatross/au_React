@@ -14,10 +14,8 @@ const joinAU = () => {
       <h1 className="flex justify-start text-4xl text-white font-bold pt-10 pb-10">Join AU Corporate</h1>
         <div className="flex justify-start flex-col w-[500px]  gap-8">
         <p className="flex justify-start text-left text-white leading-loose">
-         
           Caring for our people's well being.Providing flexibility in how we work.
-          Inspiring everybody to shape better tomorrows.These are just a few of the reasons AU is greatplace to work.
-
+          Inspiring everybody to shape better tomorrows.These are just a few of the reasons AU is great place to work.
         </p>
         <button className="bg-yellow-400 rounded  text-blue-800 font-bold h-12 w-40">Join us</button>
         </div>

@@ -15,7 +15,7 @@ const headingContact = () => {
       <h className="text-white text-sm font-bold flex justify-center ">222 first Floor,World Trade Tower,Cannaught Place,New Delhi-110001</h>
       </div>
       <div className='flex justify-center '>
-      <h className="text-white text-sm font-bold flex justify-center pl-56">Careers at AU</h>
+      <h className="text-white text-sm font-bold flex justify-center pl-56">Career at AU</h>
       </div>
       </div>
       

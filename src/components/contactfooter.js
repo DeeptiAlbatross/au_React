@@ -13,7 +13,6 @@ const Contactfooter = () => {
             Suspenisse imperdiet lectus curcus nis fcbmkas manga nec .
           </h>
         </div>
-       
         <div className="">
           <form className="grid grid-cols-2 gap-4 pt-20 p-4 ">
             <input
