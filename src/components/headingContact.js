@@ -1,26 +1,26 @@
-import React from 'react'
-import PhoneImage from "../assests/phone.png";
-import LocationImage from "../assests/Location.png"
+import React from "react";
+import PhoneImage from "../assets/phone.png";
+import LocationImage from "../assets/Location.png";
 
 const headingContact = () => {
   return (
-    <div className='bg-blue-600 h-10 pt-3 flex justify-center'>
-      <div className=' w-[3000px] flex justify-center'>
-        <div className='flex justify-center'>
-        <img  className="h-5" src={PhoneImage} alt='#'></img>
-      <h className="text-white text-sm font-bold pr-6">888-999-347  </h>
+  
+    <div class="bg-blue-600 h-10 pt-3 pb-10 flex justify-center">
+      <div class="mx-auto max-w-6xl flex justify-between py-2 md:px-0 px-4">
+        <div class="flex justify-center">
+          <img class="h-5" src={PhoneImage} alt="#"></img>
+          <h class="text-white text-sm font-bold pr-6">888-999-347 </h>
+         
         </div>
-      <div className='flex justify-center '>
-      <img className='w-5 h-5' src={LocationImage} alt='#'></img>
-      <h className="text-white text-sm font-bold flex justify-center ">222 first Floor,World Trade Tower,Cannaught Place,New Delhi-110001</h>
+        <div class="justify-center hidden md:flex">
+            <img class="w-5 h-5" src={LocationImage} alt="#"></img>
+            <h class="text-white text-sm font-bold flex justify-center">
+              222 1st Floor-WTT,CP,New Delhi-110001
+            </h>
+          </div>
       </div>
-      <div className='flex justify-center '>
-      <h className="text-white text-sm font-bold flex justify-center pl-56">Careers at AU</h>
-      </div>
-      </div>
-      
     </div>
-  )
-}
+  );
+};
 
-export default headingContact
+export default headingContact;

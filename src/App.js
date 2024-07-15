@@ -15,7 +15,6 @@ import JoinAU from "./components/joinAU";
 import ContactForm from "./components/contactfooter";
 import Footer from "./components/footer";
 
-
 function App() {
   return (
     <div className="App">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../assests/logo.png"
+import Logo from "../assets/logo.png"
 import { useNavigate } from "react-router-dom";
 
 
@@ -33,14 +33,17 @@ const Header = () => {
             </button>
 
             <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-                <span href="#" title="" class="text-base font-regular text-blue-600 transition-all duration-200 hover:text-black focus:text-blue-600" onClick={()=>scrollToTarget("home")}> Home </span>
+                {/* <span href="#" title="" class="text-base font-regular text-blue-600 transition-all duration-200 hover:text-black focus:text-blue-600" onClick={()=>scrollToTarget("home")}> Home </span> */}
                 <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("about")}> About us </span>
                 <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("about")}> Doing business in India </span>
                 <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("services")}> Services </span>
                 <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("services")}> Arbitration Services </span>
                 <span href="#" title="" class="text-base font-regular text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" onClick={()=>scrollToTarget("services")}>  HR Services </span>
+                <span href="#" title="" class="text-base font-regular transition-all duration-200 hover:text-black focus:text-blue-600" onClick={()=>scrollToTarget("home")}> Career</span>
+                <span href="#" title="" class="text-base font-regular transition-all duration-200 hover:text-black focus:text-blue-600" onClick={()=>scrollToTarget("home")}>Outsourcing</span>
+                <span href="#" title="" class="text-base font-regular transition-all duration-200 hover:text-black focus:text-blue-600" onClick={()=>scrollToTarget("home")}> Contact Us</span>
+
             </div>
-            <a href="#" title="" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-black border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button" onClick={()=>scrollToTarget("contact")}> Contact us </a>
         </nav>
     </div>
 </header>

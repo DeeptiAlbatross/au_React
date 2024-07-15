@@ -1,25 +1,23 @@
 import React from "react";
-import India from "../assests/India.png"
-import Japan from "../assests/japan.png"
-import Singapore from "../assests/singapore.png"
-import China from "../assests/china.png"
-import Germany from "../assests/germany.png"
-import USA from "../assests/usa.png"
-
+import India from "../assets/India.png";
+import Japan from "../assets/japan.png";
+import Singapore from "../assets/singapore.png";
+import China from "../assets/china.png";
+import Germany from "../assets/germany.png";
+import USA from "../assets/usa.png";
 
 const client = () => {
   return (
-    <div className="flex justify-center pb-10 flex-col p-10 ">
-      <div>
-        <h className="text-4xl text-black font-bold">Our Client are from</h>
-      </div>
-      <div className="flex flex-row justify-center pt-8">
-        <img className="h-36 w-auto" src={India}></img>
-        <img className="h-36 w-auto"src={Japan}></img>
-        <img className="h-36 w-auto"src={Singapore}></img>
-        <img className="h-36 w-auto"src={China}></img>
-        <img className="h-36 w-auto"src={Germany}></img>
-        <img className="h-36 w-auto"src={USA}></img>
+    
+    <div class="flex flex-col items-center p-10 pb-10 ">
+      <h1 class="text-4xl text-black font-bold">Our Clients are from</h1>
+      <div class="flex flex-wrap justify-center pt-8">
+        <img class="h-36 w-auto m-2" src={India} alt="India" />
+        <img class="h-36 w-auto m-2" src={Japan} alt="Japan" />
+        <img class="h-36 w-auto m-2" src={Singapore} alt="Singapore" />
+        <img class="h-36 w-auto m-2" src={China} alt="China" />
+        <img class="h-36 w-auto m-2" src={Germany} alt="Germany" />
+        <img class="h-36 w-auto m-2" src={USA} alt="USA" />
       </div>
     </div>
   );

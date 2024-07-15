@@ -1,29 +1,37 @@
 import React from "react";
-import Join from "../assests/joinAU.png";
-import Join1 from "../assests/join.png"
+import Join from "../assets/joinAU.png";
+import Join1 from "../assets/join.png";
 
 const joinAU = () => {
   return (
-      <div className="relative flex justify-center pt-20 bg-gray-200 ">
-      <img
-        className="bg-center bg-cover h-[500px] w-full"
-        src={Join}
-        alt="img "
-      ></img>
-      <div className="absolute flex  flex-col w-[1200px] mt-40 -ml-96  ">
-      <h1 className="flex justify-start text-4xl text-white font-bold pt-10 pb-10">Join AU Corporate</h1>
-        <div className="flex justify-start flex-col w-[500px]  gap-8">
-        <p className="flex justify-start text-left text-white leading-loose">
-         
-          Caring for our people's well being.Providing flexibility in how we work.
-          Inspiring everybody to shape better tomorrows.These are just a few of the reasons AU is greatplace to work.
-
-        </p>
-        <button className="bg-yellow-400 rounded  text-blue-800 font-bold h-12 w-40">Join us</button>
+       <div
+      class="relative flex flex-col bg-cover bg-center object-contain w-full pb-10 justify-center items-center"
+      style={{ backgroundImage: `url(${Join})` }}
+    >
+      <div class="flex md:flex-row flex-col md:justify-between  md:w-2/3 w-full">
+        <div class="flex flex-col  mt-20 w-full ">
+          <h1 class="text-4xl flex justify-start text-white font-bold pt-10 pb-10">
+            Join AU Corporate
+          </h1>
+          <div class="flex flex-col  gap-8">
+            <p class="md:text-left text-white leading-loose md:w-3/4 w-full text-center">
+              Caring for our people's well-being. Providing flexibility in how
+              we work. Inspiring everybody to shape better tomorrows. These are
+              just a few of the reasons AU is a great place to work.
+            </p>
+            <button class="bg-yellow-400 rounded text-blue-800 font-bold h-12 w-40 self-center md:self-start hover:bg-white">
+              Join us
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="absolute bottom-0 pt-0 right-64 ">
-        <img className="h-[600px] " src={Join1} alt="#"></img>
+        <div class="flex md:w-2/3 w-full absolute bottom-0 pt-0 sm:left-[1000px] ">
+          <img
+            class="h-auto hidden"
+            style={{ height: "450px"}}
+            src={Join1}
+            alt="Join"
+          />
+        </div>
       </div>
     </div>
   );

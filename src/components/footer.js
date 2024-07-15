@@ -1,95 +1,118 @@
 import React from "react";
-import FooterImage from "../assests/footerImage.png";
-// import Logo from "../assests/logo.png";
-import PhoneImage from "../assests/phone.png";
-import Location from "../assests/Location.png"
-// import Image from "../assests/socialMedia.png";
-import Image2 from "../assests/logo-text.png";
-import Logo2 from "../assests/Logo2.png";
+import FooterImage from "../assets/footerImage.png";
+// import Logo from "../assets/logo.png";
+import PhoneImage from "../assets/phone.png";
+import Location from "../assets/Location.png";
+// import Image from "../assets/socialMedia.png";
+import Image2 from "../assets/logo-text.png";
+import Logo2 from "../assets/Logo2.png";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import Letter from "../assests/letter.png";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
+import Letter from "../assets/letter.png";
 
 const Footer = () => {
   const scrollToTarget = (item) => {
-    const id=document.getElementById(item);
-    if(id){
-     id.scrollIntoView({behavior:"smooth",block:"start"})
+    const id = document.getElementById(item);
+    if (id) {
+      id.scrollIntoView({ behavior: "smooth", block: "start" });
     }
- }
+  };
   return (
-    <div className=" relative flex flex-col pb-4">
-      <div className="flex flex-row ">
-        <img
-          className=" bg-center bg-cover  "
-          src={FooterImage}
-          alt="img "
-        ></img>
-      </div>
 
-      <div className="absolute flex flex-row  mt-12 pl-60  gap-16  ">
-        <div className=" w-1/6 ">
-          <div className="flex flex-row">
-            <img src={Logo2}></img>
-            <img className=" " src={Image2}></img>
+    <div
+      class="relative flex flex-col bg-cover bg-center object-contain w-full justify-center items-center"
+      style={{ backgroundImage: `url(${FooterImage})` }}
+    >
+      <div class="flex mt-12 flex-col md:flex-row  justify-evenly w-2/3">
+        <div class="md:w-1/3 w-full ">
+          <div class="flex md:w-2/3 w-32">
+            <img src={Logo2} class="object-cover" alt="Logo" />
+            <img src={Image2} class="object-contain" alt="Logo Text" />
           </div>
-
-          <p className="relative text-white text-left flex justify-start pt-8 align-items-left">
-            Welcome to AU corporate,where expert financial solutions and precision
-            meet.Trust to navigate your finances to your own growth.
+          <p class="text-white pt-4 flex text-left">
+            Welcome to AU corporate, where expert financial solutions and
+            precision meet. Trust us to navigate your finances towards growth.
           </p>
         </div>
-        <div className="text-white flex flex-col  w-1/5 pl-20 leading-loose ">
-          <span href="#" title="" class="pb-10 flex justify-start text-lg">Extra Links</span>
-          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("home")}>Home</span>
-          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("about")}>About us</span>
-          <span href="#" title="" class="flex justify-start">Doing business in India</span>
-          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Services</span>
-          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>Arbitration Services</span>
-          <span href="#" title="" class="flex justify-start" onClick={()=>scrollToTarget("services")}>HR Services</span>
-
+        <div class="text-white  md:w-1/3 w-full flex flex-col leading-loose justify-center items-center ">
+          <h2 class="text-lg my-4 font-extrabold flex justify-start">Extra Links</h2>
+          <ul>
+            <li>
+              <span href="#" class="flex">
+                Home
+              </span>
+            </li>
+            <li>
+              {" "}
+              <span href="#" class="flex">
+                About us
+              </span>
+            </li>
+            <li>
+              {" "}
+              <span href="#" class="flex text-left">
+                Doing business in India
+              </span>
+            </li>
+            <li>
+              {" "}
+              <span href="#" class="flex">
+                Services
+              </span>
+            </li>
+            <li>
+              {" "}
+              <span href="#" class="flex">
+                Arbitration Services
+              </span>
+            </li>
+            <li>
+              {" "}
+              <span href="#" class="flex">
+                HR Services
+              </span>
+            </li>
+          </ul>
         </div>
-        <div className="text-white flex flex-col  w-1/4 leading-loose gap-4">
-          <h className="pb-10 flex justify-start text-lg">
-            Contact Informations
-          </h>
-          <div className="flex justify-start gap-2">
-            <img className="h-5" src={PhoneImage}></img>
-            <h className="text-white ">888-999-347 </h>
+        <div class="text-white flex flex-col justify-center items-center  md:w-1/3 w-full leading-loose ">
+          <h2 class="text-lg my-4">Contact Information</h2>
+          <div class="flex gap-2">
+            <img class="h-6 w-6" src={PhoneImage} alt="Phone" />
+            <span>888-999-347</span>
           </div>
-          <div className="flex justify-start flex-row gap-2">
-            <img className="w-5" src={Letter}></img>
-          <h className="flex justify-start">au.corporate@gmail.com</h>
+          <div class="flex gap-2">
+            <img class="w-6 h-6" src={Letter} alt="Email" />
+            <span>au.corporate@gmail.com</span>
           </div>
-          
-          <div className="flex justify-start flex-row gap-3">
-            <img className="w-4 h-10" src={Location}></img>
-          <h className="flex justify-start text-sm">222 First Floor, World Trade Tower,<br></br>Cannaught Place,New Delhi-110001 </h>
+          <div class="flex gap-3 justify-center">
+            <img class="w-6 h-8" src={Location} alt="Location" />
+            <span class="text-sm md:w-1/2 w-full">
+              222 First Floor, World Trade Tower, Cannaught Place, New
+              Delhi-110001
+            </span>
           </div>
         </div>
-        <div className="">
-          <h className="text-lg text-white ">Follow Us on </h>
-          <div className="flex flex-row gap-10  pt-10">
-           <div className="bg-yellow-300 h-8 w-8 flex justify-center pt-2 rounded-lg">
-           <AiFillInstagram />
-           </div>
-           <div className="bg-yellow-300 h-8 w-8 flex justify-center pt-2 rounded-lg">
-           < FaFacebookF/>
-           </div>
-           <div className="bg-yellow-300 h-8 w-8 flex justify-center pt-2 rounded-lg">
-           <FaTwitter />
-           </div>
+        <div class="flex flex-col ">
+          <h2 class="text-lg text-white my-4">Follow Us on</h2>
+          <div class="flex gap-10 py-6">
+            <div class="bg-yellow-300 h-8 w-8 flex justify-center items-center rounded-lg">
+              <AiFillInstagram />
+            </div>
+            <div class="bg-yellow-300 h-8 w-8 flex justify-center items-center rounded-lg">
+              <FaFacebookF />
+            </div>
+            <div class="bg-yellow-300 h-8 w-8 flex justify-center items-center rounded-lg">
+              <FaTwitter />
+            </div>
           </div>
-        
-        </div>{" "}
+        </div>
       </div>
-      <div className=" absolute flex-grow border-b-2 flex justify-center border-white w-[1500px] pt-[350px] ml-[180px]  "></div>
-      <div className="absolute mt-[360px] mx-52">
-        <div className="flex flex-row space-x-[1000px] pt-2">
-          <h className="text-white">Career at AU</h>
-          <p className="text-white">
-            Copyright @ AU Corporate.All Rights Reserved 2024
+      <div class="border-b-2 border-white  pb-2 w-full"></div>
+      <div class="flex justify-center items-center  w-full">
+        <div class="flex justify-between items-center pt-2 w-2/3">
+          <h3 class="text-white">Career at AU</h3>
+          <p class="text-white">
+            &copy; AU Corporate. All Rights Reserved 2024
           </p>
         </div>
       </div>

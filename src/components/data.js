@@ -1,25 +1,24 @@
-import FinacialImage from "../assests/Financial.png";
-import PerfectImage from "../assests/PerfectDesicion.png";
-import BudgetImage from "../assests/Budget.png";
-import TechImage from "../assests/rocket.png";
-import ArrowImage from "../assests/bluearrow.png";
-import Rupee from "../assests/Ruppee.png";
-import Tax from "../assests/Tax.png";
-import HR from "../assests/HR.png";
-import Income from "../assests/iNCOME.png";
-import Goods from "../assests/Goods and servicetax.png";
-import Corporate from "../assests/CORPORATE.png";
-import GST from "../assests/GST.png";
-import Arbitration from "../assests/arbitration.png";
-import Team1 from "../assests/Team1.png";
-import Integrity from "../assests/integrity.png"
-import Industrious from "../assests/industrious.png"
-import Confidentiality from "../assests/confidentiality.png"
-import International from "../assests/International.png"
-import Availibility from "../assests/Availability.png"
-import  testimonialImage from "../assests/ABouticon.png";
-import WhiteArrow from "../assests/whitearrow copy.png";
-
+import FinacialImage from "../assets/Financial.png";
+import PerfectImage from "../assets/PerfectDesicion.png";
+import BudgetImage from "../assets/Budget.png";
+import TechImage from "../assets/rocket.png";
+import ArrowImage from "../assets/bluearrow.png";
+import Rupee from "../assets/Ruppee.png";
+import Tax from "../assets/Tax.png";
+import HR from "../assets/HR.png";
+import Income from "../assets/iNCOME.png";
+import Goods from "../assets/Goods and servicetax.png";
+import Corporate from "../assets/Corporate.png";
+import GST from "../assets/GST.png";
+import Arbitration from "../assets/arbitration.png";
+import Team1 from "../assets/Team1.png";
+import Integrity from "../assets/integrity.png";
+import Industrious from "../assets/industrious.png";
+import Confidentiality from "../assets/confidentiality.png";
+import International from "../assets/International.png";
+import Availibility from "../assets/Availability.png";
+import testimonialImage from "../assets/ABouticon.png";
+import WhiteArrow from "../assets/whitearrow copy.png";
 
 export const cardData = [
   {
@@ -53,66 +52,64 @@ export const servicesData = [
     title: "Doing Business in India",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Rupee,
-    style:"bg-blue-700",
-    image2:WhiteArrow
+    style: "bg-blue-700",
+    image2: WhiteArrow,
   },
   {
     id: 2,
     title: "Income Tax Litigation",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Income,
-    style:"bg-white",
-    image2:ArrowImage
+    style: "bg-white",
+    image2: ArrowImage,
   },
   {
     id: 3,
     title: "Arbitration supoort",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Arbitration,
-    style:"bg-blue-700",
-    image2:WhiteArrow
+    style: "bg-blue-700",
+    image2: WhiteArrow,
   },
   {
     id: 4,
     title: "HR",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: HR,
-    style:"bg-white",
-    image2:ArrowImage
+    style: "bg-white",
+    image2: ArrowImage,
   },
   {
     id: 5,
     title: "Corporate Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Corporate,
-    style:"bg-white",
-    image2:ArrowImage
-   
+    style: "bg-white",
+    image2: ArrowImage,
   },
   {
     id: 6,
     title: "Direct and Indirect Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Tax,
-    style:"bg-blue-700",
-    image2:WhiteArrow
+    style: "bg-blue-700",
+    image2: WhiteArrow,
   },
   {
     id: 7,
     title: "Goods and Service Tax",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: Goods,
-    style:"bg-white",
-    image2:ArrowImage
-    
+    style: "bg-white",
+    image2: ArrowImage,
   },
   {
     id: 8,
     title: "GST Consultancy",
     para: " visitors, encourage repeat purchase, and recover lost sales. Make reporting .",
     image: GST,
-    style:"bg-blue-700",
-    image2:WhiteArrow
+    style: "bg-blue-700",
+    image2: WhiteArrow,
   },
 ];
 export const teamData = [
@@ -169,27 +166,25 @@ export const strengthData = [
   },
 ];
 export const testimonialsData = [
-    {
-      id: 1,
-      title: "Executive Director",
-      title2:"Lisa",
-      para: "Design your online store yourself with our drag-and-drop builder .",
-      image: testimonialImage,
-    },
-    {
-        id: 1,
-        title: "Executive Director",
-        title2:"Lisa",
-        para: "Design your online store yourself with our drag-and-drop builder .",
-        image: testimonialImage,
-      },
-      {
-        id: 1,
-        title: "Executive Director",
-        title2:"Lisa",
-        para: "Design your online store yourself with our drag-and-drop builder .",
-        image: testimonialImage,
-      },
-    
-  ];
-
+  {
+    id: 1,
+    title: "Executive Director",
+    title2: "Lisa",
+    para: "Design your online store yourself with our drag-and-drop builder .",
+    image: testimonialImage,
+  },
+  {
+    id: 1,
+    title: "Executive Director",
+    title2: "Lisa",
+    para: "Design your online store yourself with our drag-and-drop builder .",
+    image: testimonialImage,
+  },
+  {
+    id: 1,
+    title: "Executive Director",
+    title2: "Lisa",
+    para: "Design your online store yourself with our drag-and-drop builder .",
+    image: testimonialImage,
+  },
+];
